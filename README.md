@@ -1,6 +1,8 @@
 # Clean Compact Light Theme for Directus
 CleanCompactLight is a minimalist Directus theme that enhances UI compactness and component clarity, based on the default light theme.
 
+![](./screenshots/main.png)
+
 ## List of Principal Changes
 
 ### Basic Settings:
