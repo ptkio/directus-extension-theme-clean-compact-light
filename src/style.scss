@@ -1,0 +1,219 @@
+/* main view */
+.private-view {
+    /* main view padding */
+    --content-padding:0 32px!important;
+    .v-table {
+        --content-padding:32px!important;
+    }
+
+    /* listing content */
+    #main-content {
+        font-size:13px!important;
+    }
+
+    /* All content */
+    #navigation .module-nav {
+        font-size: 0.9rem!important;
+    }
+}
+
+/* fix size in overlay */
+.v-drawer .content {
+    font-size:13px!important;
+    --theme--form--row-gap: 25px!important;
+}
+
+/* head of table */
+.table-header .cell {
+    font-size:13px!important;
+}
+
+/* Label au dessus des champs de formulaire */
+.type-label {
+    font-size:14px!important;
+    margin-bottom: 5px!important;
+}
+
+/* fix align between item list/notice with input form */
+.v-list,.v-notice {
+    margin-top:0px!important;
+}
+.v-notice {
+    padding: 8px 16px!important;
+}
+/* badge in listing */
+.v-chip.small {
+    font-size:12px!important;
+}
+
+/* group form */
+.v-detail.group-detail {
+
+    &.full {
+        padding: 1rem;
+        border: var(--theme--border-width) solid var(--theme--form--field--input--border-color);
+        border-radius: var(--theme--border-radius);
+    }
+
+    hr {
+        display:none;
+    }
+}
+
+/* accordions style */
+.v-item-group.group-accordion.full {
+    padding: 0;
+    border: var(--theme--border-width) solid var(--theme--form--field--input--border-color);
+    border-radius: var(--theme--border-radius);
+
+    .accordion-section {
+        padding: 0 1rem;
+        &:first-child {
+            border-top:0px none!important;
+        }
+        &:last-child {
+            border-bottom:0px none!important;
+        }
+    }
+    span.field-name {
+        font-size: 15px!important;
+        font-weight: 600!important;
+    }
+}
+
+/* Title of field group and separator */
+.v-divider.large {
+    .type-text {
+        font-size: 17px!important;
+        font-weight: 600!important;
+        .title {
+            font-size: 15px!important;
+            font-weight: 600!important;
+        }
+    }
+}
+
+
+/* textarea padding fix (text touch top border without this) */
+.v-textarea textarea {
+    padding: 10px!important;
+}
+
+/* in relationship field, align fix */
+.render-template {
+    line-height:18px!important;
+}
+
+/* page title size ajust */
+h1.type-title {
+    font-size: 20px;
+}
+
+/* button ajust */
+button.button {
+    font-size: 14px!important;
+    height: 40px!important;
+
+    span.content {
+        height: 100%;
+        line-height: 40px!important;
+    }
+
+    &.icon {
+        width: 40px!important;
+        i {
+            font-size: 24px!important;
+            line-height: 25px!important;
+        }
+    }
+}
+
+/* font ajust and marge in menu outlet*/
+#menu-outlet {
+    font-size: 12px;
+
+    .v-list-item {
+        min-height:30px;
+        margin:0px;
+    }
+    .v-list-group {
+        margin:0px;
+    }
+}
+
+.v-list {
+    .v-list-item {
+        /* Size of icons, check in Settings page, list all modules */
+        .v-icon.icon {
+            width: 20px!important;
+            height: 20px!important;
+            margin: 0 10px!important;
+            svg {
+                width: 20px!important;
+                height: 20px!important;
+            }
+            i {
+                width: 20px!important;
+                height: 20px!important;
+                font-size: 20px!important;
+            }
+        }
+
+        /* Settings page, list all modules */
+        .info {
+            .name{
+                line-height: 12px;
+                font-size: 12px;
+                padding-bottom: 2px;
+            }
+            .to{
+                color: var(--theme--foreground-subdued);
+                line-height: 12px;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+/* ajustement de l'affichage des input texte prepend, append, content, icon */
+.v-input .input {
+    .content {
+        line-height: 18px;
+        padding: 10px 0;
+    }
+
+    .prepend {
+        .preview {
+            width: 30px;
+            height: 30px;
+            margin-left: -6px;
+
+            .v-icon {
+                text-align:center;
+            }
+
+            .v-icon:not(.small) i {
+                font-size: 20px;
+                line-height: 24px;
+            }
+
+            .v-button.swatch {
+                width: 30px;
+                height: 30px;
+                margin-left: -6px;
+                max-height: 30px;
+                margin-top: 4px;
+            }
+        }
+    }
+
+    .append {
+        .v-icon {
+            text-align:center;
+        }
+        .v-icon:not(.small) i {
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+}

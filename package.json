@@ -1,0 +1,50 @@
+{
+	"name": "directus-extension-theme-clean-compact-light",
+	"description": "CleanCompactLight is a minimalist Directus theme that enhances UI compactness and component clarity, based on the default light theme.",
+	"icon": "palette",
+	"version": "0.1.1",
+	"license": "MIT",
+	"author": {
+		"email": "paul.tecchio@gmail.com",
+		"name": "ptkio"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ptkio/directus-extension-theme-clean-compact-light"
+	},
+	"keywords": [
+		"directus",
+		"directus-extension",
+		"directus-custom-theme",
+		"clean",
+		"light",
+		"simple",
+		"basic",
+		"compact"
+	],
+	"type": "module",
+	"directus:extension": {
+		"type": "theme",
+		"path": "dist/index.js",
+		"source": "src/index.ts",
+		"host": "^10.3.3",
+		"sandbox": {
+			"enabled": true,
+			"requestedScopes": {}
+		}
+	},
+	"scripts": {
+		"build-publish": "directus-extension build && npm publish",
+		"build": "directus-extension build",
+		"dev": "directus-extension build -w --no-minify",
+		"link": "directus-extension link"
+	},
+	"devDependencies": {
+		"@directus/extensions-sdk": "10.3.3",
+		"typescript": "^5.3.3",
+		"vue": "^3.4.19"
+	},
+	"dependencies": {
+		"node-sass": "^9.0.0"
+	}
+}
