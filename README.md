@@ -1,7 +1,7 @@
 # Clean Compact Light Theme for Directus
 CleanCompactLight is a minimalist Directus theme that enhances UI compactness and component clarity, based on the default light theme.
 
-![](./screenshots/main.png)
+![](https://raw.githubusercontent.com/ptkio/directus-extension-theme-clean-compact-light/main/screenshots/main.png)
 
 ## List of Principal Changes
 
@@ -31,10 +31,10 @@ These screenshots were taken at a high resolution. Open them at full size to see
 - The Accordion is more beautiful and doesn't look like the separator field.
 - Group fields are based on the accordion, with a clear distinction between fields outside and inside the group. All fields are wrapped with a border line.
 
-![Example 1: Form Display](./screenshots/example_1.png)
+![Example 1: Form Display](https://raw.githubusercontent.com/ptkio/directus-extension-theme-clean-compact-light/main/screenshots/example_1.png)
 
 ### Example 2: The Settings Page
 - You see more on one screen.
 - All elements are smaller, but not too much.
 
-![Example 2: Settings Page](./screenshots/example_2.png)
+![Example 2: Settings Page](https://raw.githubusercontent.com/ptkio/directus-extension-theme-clean-compact-light/main/screenshots/example_2.png)
