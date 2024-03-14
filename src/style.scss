@@ -235,7 +235,12 @@ button.button {
     .field .type-text {
         font-size: 13px;
     }
-    .sidebar-detail .toggle {
-        height: calc(50px + var(--theme--sidebar--section--toggle--border-width));
+    .sidebar-detail {
+        .close {
+            height: 50px;
+        }
+        .toggle {
+            height: calc(50px + var(--theme--sidebar--section--toggle--border-width));
+        }
     }
 }
