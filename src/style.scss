@@ -1,9 +1,14 @@
 /* main view */
 .private-view {
-    /* main view padding */
-    --content-padding:0 32px!important;
-    .v-table {
-        --content-padding:32px!important;
+
+    /* redyce space between form and title*/
+    main > .v-form {
+        padding-top: 0!important;
+    }
+
+    /* redyce from 40 to 20 */
+    .add-margin-top {
+        margin-top: 20px!important;
     }
 
     /* listing content */
@@ -21,6 +26,11 @@
 .v-drawer .content {
     font-size:13px!important;
     --theme--form--row-gap: 25px!important;
+
+    /* redyce space between form and title*/
+    .drawer-item-content {
+        padding-top: 0!important;
+    }
 }
 
 /* head of table */
