@@ -2,7 +2,7 @@
 	"name": "directus-extension-theme-clean-compact-light",
 	"description": "CleanCompactLight is a minimalist Directus theme that enhances UI compactness and component clarity, based on the default light theme.",
 	"icon": "palette",
-	"version": "0.1.3",
+	"version": "0.2.0",
 	"license": "MIT",
 	"author": {
 		"email": "paul.tecchio@gmail.com",
