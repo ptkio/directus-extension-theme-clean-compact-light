@@ -227,3 +227,15 @@ button.button {
         }
     }
 }
+
+/* sidebar font size and button size */
+#sidebar {
+    font-size: 13px;
+
+    .field .type-text {
+        font-size: 13px;
+    }
+    .sidebar-detail .toggle {
+        height: calc(50px + var(--theme--sidebar--section--toggle--border-width));
+    }
+}
