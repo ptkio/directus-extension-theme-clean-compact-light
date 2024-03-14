@@ -9,7 +9,7 @@ export default defineTheme({
 			field: {
 				input: {
 					height: '40px',
-					padding: '0 10px',
+					padding: '10px',
 				},
 			},
 			rowGap: '25px',
