@@ -16,5 +16,17 @@ export default defineTheme({
 		},
 		borderWidth: '1px',
 		borderRadius: '5px',
+		sidebar: {
+			section: {
+				form: {
+					field: {
+						input: {
+							height: '40px',
+							padding: '10px',
+						},
+					},
+				},
+			},
+		},
 	},
 });
